@@ -5,9 +5,8 @@ const stopBtn = document.getElementById("stopBtn");
 const intervalInput = document.getElementById("interval");
 
 // Initialize variables
-let dataRows = [];
-let timerId = null;
-let rowCount = 0;
+let timerId = null; //Get id for setInterval func
+let rowCount = 0; //For coloring even and odd columns of a table
 
 // Generate a new row of data and add it to the table
 const addDataRow = () => {
@@ -20,7 +19,6 @@ const addDataRow = () => {
     cell1.innerText = randomNumber;
     cell2.innerText = dateTime;
     rowCount++;
-    dataRows.push(row);
 };
 
 // Start generating new rows of data at the specified interval
