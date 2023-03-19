@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Table Generator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<form>
+    <label for="interval">Interval (in seconds): </label>
+    <input type="number" id="interval" name="interval" min="1" value="5">
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+</form>
+<table id="dataTable">
+    <caption>Generated Data After A Certain Period</caption>
+    <thead>
+    <tr>
+        <th>Random Number</th>
+        <th>Date/Time</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+</body>
+<script  type="application/javascript" rel="javascript" src="script.js"></script>
+</html>
