@@ -4,7 +4,6 @@ const startBtn = document.getElementById("startBtn");
 const stopBtn = document.getElementById("stopBtn");
 const intervalInput = document.getElementById("interval");
 
-// Initialize variables
 let timerId = null; //Get id for setInterval func
 let rowCount = 0; //For coloring even and odd columns of a table
 
